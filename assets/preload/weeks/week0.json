@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Crossing My Road", "noob", [18, 184, 251]]
+	],
+
+	"weekCharacters": [
+		"noob",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "crossroads",
+
+	"storyName": "Roblox Noob",
+	"weekBefore": "week0",
+	"weekName": "Noob",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}
