@@ -314,6 +314,7 @@ class StoryMenuState extends MusicBeatState
 				// bruh
 				FreeplayState.destroyFreeplayVocals();
 			});
+		}
 	}
 
 	function changeDifficulty(change:Int = 0):Void
