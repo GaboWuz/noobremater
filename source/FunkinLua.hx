@@ -20,10 +20,7 @@ import flixel.FlxBasic;
 import flixel.FlxObject;
 import flixel.FlxSprite;
 import openfl.display.BlendMode;
-#if sys
-import sys.FileSystem;
-import sys.io.File;
-#end
+import openfl.utils.Assets;
 import Type.ValueType;
 import Controls;
 import DialogueBoxPsych;
