@@ -52,9 +52,10 @@
       "url": "https://github.com/superpowers04/linc_luajit"
     },
     {
-        "name": "hxCodec",
-        "type": "haxelib",
-        "version": "2.6.1"
+      "name": "hxCodec",
+      "type": "git",
+      "ref": "main",
+      "url": "https://github.com/Idklel01/hxCodec-but-it-works-xd"
     }
   ]
 }
