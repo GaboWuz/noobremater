@@ -1134,7 +1134,7 @@ class PlayState extends MusicBeatState
 				case 'senpai' | 'roses' | 'thorns':
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
-				case 'ugh':
+				case 'crossing-my-road':
 				startVideo('cmr');
 				default:
 					startCountdown();
