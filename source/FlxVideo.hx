@@ -1,8 +1,12 @@
-#if desktop
+#if web
 import openfl.net.NetConnection;
 import openfl.net.NetStream;
 import openfl.events.NetStatusEvent;
 import openfl.media.Video;
+#else
+import openfl.events.Event;
+import vlc.VlcBitmap;
+#end
 import flixel.FlxBasic;
 import flixel.FlxG;
 
@@ -127,4 +131,3 @@ class FlxVideo extends FlxBasic {
 	#end
 	#end
 }
-#end
