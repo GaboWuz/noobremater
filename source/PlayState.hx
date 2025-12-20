@@ -1234,8 +1234,7 @@ class PlayState extends MusicBeatState
 		}
 
 		var video:MP4Handler = new MP4Handler();
-		video.load(filepath);
-		video.playVideo();
+		video.playVideo(filepath);
 		video.finishCallback = function()
 		{
 			if(endingSong) endSong();
